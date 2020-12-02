@@ -1,0 +1,98 @@
+
+<style>
+			
+			* {
+				
+			}
+			#head {
+				background: #EEEEEE;
+				height: 80px;
+			}
+			#game {
+				background: #ffff99;
+				height: 850px;
+				width: 850px;
+				margin: auto;
+			}
+			#game .score{
+				height: 100px;
+				width: 800px;
+				background: #ccffcc;
+				margin: auto;
+			}
+			#game .score .item{
+				float: left;
+				background: #ccff66;
+				height: 100px;
+				width: 190px;
+				margin-right: 13px;
+			}
+			#game .score .item.last{
+				margin-right: 0;
+			}
+			#game .score .item .text{
+				font-size: 16px;
+				font-weight: 800;
+				margin: auto;
+				text-align: center;
+				padding-top: 10px;
+			}
+			
+			
+			#game .dice {
+				width: 800px;
+				height: 400px;
+				background: #FFE1FF;
+				margin: auto;
+			}
+			
+			#game .dice .item{
+				width: 200px;
+				height: 180px;
+				background: #EEEEEE;
+				float: left;
+				margin-left: 100px;
+				margin-right: 100px;
+				margin-top: 10px;
+				margin-bottom: 10px;
+			}
+			
+			#game .dice .item .picture{
+				height:60px ;
+				width: 60px;
+				margin-top: 60px;
+				margin-bottom: 60px;
+				margin-left: 70px;
+				
+			}
+			
+			#game .control{
+				width: 800px;
+				height: 100px;
+				background: #EE9A00;
+				margin: auto;
+			}
+			#game .control .item{
+				width: 300px;
+				height: 80px;
+				margin-top: 10px;
+				margin-bottom: 10px;
+				margin-right: 50px;
+				margin-left: 50px;
+				background: #CCFFCC;
+				float: left;
+			}
+			
+			.button 
+			{
+				background:#FF3030;
+				color:#f2f2f2;
+				margin-top: 20px;
+				margin-left: 80px;
+				padding: 10px 30px 10px 30px;
+				font-size:16px;
+				font-weight:bold;
+				border-radius:3px;
+				}
+			
+		</style>
